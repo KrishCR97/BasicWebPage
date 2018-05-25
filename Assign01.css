@@ -1,22 +1,25 @@
-ul li{
-list-style: none;
-
-float: left;
-
+.navBlock{
+    width:80%; 
+    margin:0 auto;
 }
+.navBlock ul{
+text-align: center;
+list-style-type: none;
+background-color: blueviolet;
+overflow: hidden;
 
-ul li a {
-    color: white;
+
+ }
+.navBlock ul li{
+    
     padding: 10px;
-    background-color: rgb(172, 76, 76);
+    float: left;
+}
+.navBlock ul li a:hover{ 
+background-color: brown;
+}
+.navBlock ul li a{
+    color: aliceblue;
+    padding: 10px;
     text-decoration: none;
-}
-
-ul li a:hover{
-    background-color: blue;
-}
-
-.navClass{
-    width: 50%;
-    margin: auto;   
 }
