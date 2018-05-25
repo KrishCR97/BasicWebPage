@@ -23,3 +23,30 @@ background-color: brown;
     padding: 10px;
     text-decoration: none;
 }
+.navBlock .leftNav{
+width: 60%;
+float: left;
+}
+.navBlock .rightNav{
+width: 39%;
+float: right 
+}
+.navBlock .leftNav .contentArticle{
+    padding: 1px 0px 0px 10px;
+}
+
+.navBlock .rightNav .contentArticle{
+    padding: 1px 0px 0px 10px;
+}
+
+article{
+    padding: 10px;
+    background-color: aqua;
+    box-shadow: 5px 10px #888888;
+
+    
+}
+.customArticle{
+    background-color: antiquewhite;
+
+}
