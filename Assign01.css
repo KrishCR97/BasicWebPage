@@ -1,0 +1,11 @@
+ul li{
+list-style: none;
+float: left;
+padding: 10px;
+background-color: rgb(172, 76, 76);
+
+}
+
+ul li a {
+    text-decoration: none;
+}
