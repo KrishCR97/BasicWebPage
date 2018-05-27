@@ -50,6 +50,14 @@ article{
     background-color: antiquewhite;
 
 }
-@media screen and (min-width : 480px){
-    
+@media screen and (max-width : 400px){
+    .navBlock ul li{
+    float: none;
+    }
+    .navBlock .rightNav{
+    float: none; 
+    }
+    .navBlock .leftNav{
+        float: none;
+        }
 }
